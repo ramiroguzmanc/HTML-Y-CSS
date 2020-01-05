@@ -1,9 +1,22 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+/* ------------------------------------ VARIABLES ------------------------------------*/
+
+:root{
+    --color-verde: #5bff0f;
+    --color-negro: #313337;
+    --sombra-box:  0 0 2px #ababab;
+
+
+}
+
+/* ----------------------------- AQUÍ COMIENZA EL NAVBAR -----------------------------*/
 html,body{
     background-color: white;
     font-size: 12px;
     font-family: Helvetica;
     padding: 0;
     margin: 0;
+    font-family: 'Open Sans', sans-serif;
 }
 
 nav{
@@ -11,7 +24,7 @@ nav{
     justify-content: space-between;
     align-items: center;
     padding: 5px 15px;
-    background-color: #5bff0f;
+    background-color: var(--color-verde);
     font-size: 15px;
 }
 
@@ -21,7 +34,7 @@ nav ul{
 
 nav li a{
     margin: 5px 10px;
-    color: black;
+    color: var(--color-negro);
     text-decoration: none;
     font-weight: bold;    
     
@@ -35,7 +48,7 @@ nav li a:hover{
 }
 
 
-/* ----------------------------- AQUÍ TERMINA EL NAVBAR -----------------------------*/
+/* ----------------------------- AQUÍ COMIENZA EL MAIN -----------------------------*/
 
 .message-main{
     padding: 15%;
@@ -64,7 +77,7 @@ nav li a:hover{
 .products-catalogue .product-contain{
     background-color: white;
     padding: 15px;
-    box-shadow: 0 0 2px #ababab;
+    box-shadow: var(--sombra-box);
 }
 
 .product{
@@ -74,7 +87,7 @@ nav li a:hover{
 }
 
 .main-button{
-    background-color: #5bff0f;
+    background-color: var(--color-verde);
     border-radius: 5px;
     padding: 10px 15px;
     width: 100%;
