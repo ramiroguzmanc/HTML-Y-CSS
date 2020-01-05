@@ -1,5 +1,5 @@
 html,body{
-    background-color: antiquewhite;
+    background-color: white;
     font-size: 12px;
     font-family: Helvetica;
     padding: 0;
@@ -10,8 +10,9 @@ nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 5px 10px;
-    background-color: #7ACC2D;
+    padding: 5px 15px;
+    background-color: #5bff0f;
+    font-size: 15px;
 }
 
 nav ul{
@@ -19,7 +20,7 @@ nav ul{
 }
 
 nav li a{
-    margin: 5px;
+    margin: 5px 10px;
     color: black;
     text-decoration: none;
     font-weight: bold;    
@@ -31,4 +32,59 @@ nav li{
 
 nav li a:hover{
     color: white;
+}
+
+
+/* ----------------------------- AQUÍ TERMINA EL NAVBAR -----------------------------*/
+
+.message-main{
+    padding: 15%;
+    padding-top: 6%;
+    text-align: center;
+}
+
+.products-catalogue{
+    height: 50px;
+    background-image: url("../images/curve.png");
+    background-position: center top;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    padding: 150px 30%;
+}
+
+.product-contain{
+    /* border: 1px solid grey; */
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.products-catalogue .product-contain{
+    background-color: white;
+    padding: 15px;
+    box-shadow: 0 0 2px #ababab;
+}
+
+.product{
+    /* background-color: greenyellow; */
+    padding: 10px;
+    margin-top: -300px;
+}
+
+.main-button{
+    background-color: #5bff0f;
+    border-radius: 5px;
+    padding: 10px 15px;
+    width: 100%;
+    color: white;
+    border: 1px solid grey;
+    font-weight: bold;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.main-button:hover{
+    background-color: #5e9e22;
 }
