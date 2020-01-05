@@ -26,6 +26,7 @@ nav{
     padding: 5px 15px;
     background-color: var(--color-verde);
     font-size: 15px;
+    box-shadow: -1px 3px 2px #7ACC2D;
 }
 
 nav ul{
