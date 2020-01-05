@@ -141,7 +141,7 @@ nav li a:hover{
 
 .mention{
     margin: 40px;
-    box-shadow: var(--sombra-box);
+    box-shadow: -2px 2px 4px #ababab;
 }
 
 .mention-p{
@@ -151,3 +151,24 @@ nav li a:hover{
 .mention-contain img{
     width: 100%;
 }
+
+/* ----------------------------- AQUÍ COMIENZA FOOTER -----------------------------*/
+
+footer{
+    background-color: #313337;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+footer a{
+    color: white;
+    text-decoration: none;
+}
+
+footer a:hover{
+    text-decoration: underline;
+}
+
+
