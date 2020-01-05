@@ -101,3 +101,29 @@ nav li a:hover{
 .main-button:hover{
     background-color: #5e9e22;
 }
+/* ----------------------------- AQUÍ COMIENZA ZONA CARACTERISTICAS -----------------------------*/
+
+.characteristics{
+    /* height: 200px; */
+    /* border: red 1px solid; */
+    display: flex;
+    justify-content: center;
+    /* padding: 10%; */
+}
+
+.characteristic{
+    /* border: blue 1px solid; */
+    margin: 100px;
+    height: 300px;
+    width: 180px;
+}
+
+.characteristic-contain{
+    text-align: center;
+}
+
+.characteristic-contain img{
+    width: 150px;
+    height: 150px;
+}
+
