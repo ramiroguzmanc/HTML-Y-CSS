@@ -1,0 +1,24 @@
+@media (max-width: 600px){
+
+.message-main{
+        padding: 4%;
+    }
+.products-catalogue{
+   display: inherit;
+    height: auto;
+    padding: 4%;
+}
+
+.product{
+    margin-top: auto;
+}
+
+.characteristics, .mentions{
+    display: inherit;
+}
+
+.characteristic{
+    width: auto;
+}
+
+}
