@@ -1,6 +1,7 @@
 .container {
     max-width: 900px;
     margin: auto;
+    padding: 100px 0;
 }
 
 .row {
@@ -21,6 +22,7 @@
 
 .col-4 {
     width: 33.33333333333333%;
+    text-align: center;
 }
 
 .col-5 {
@@ -68,7 +70,12 @@
 .col-11,
 .col-12 {
     padding: 10px;
-    border: red 1px solid;
+    /* border: red 1px solid; */
+}
+
+.col-4 img {
+    height: 150px;
+    width: 150px;
 }
 
 @media (max-width: 900px) {
