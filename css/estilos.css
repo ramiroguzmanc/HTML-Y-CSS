@@ -1,16 +1,18 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+
 /* ------------------------------------ VARIABLES ------------------------------------*/
 
-:root{
+:root {
     --color-verde: #5bff0f;
     --color-negro: #313337;
-    --sombra-box:  0 0 2px #ababab;
-
-
+    --sombra-box: 0 0 2px #ababab;
 }
 
+
 /* ----------------------------- AQUÍ COMIENZA EL NAVBAR -----------------------------*/
-html,body{
+
+html,
+body {
     background-color: white;
     font-size: 12px;
     font-family: Helvetica;
@@ -19,7 +21,7 @@ html,body{
     font-family: 'Open Sans', sans-serif;
 }
 
-nav{
+nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -29,35 +31,35 @@ nav{
     box-shadow: -1px 3px 2px #7ACC2D;
 }
 
-nav ul{
+nav ul {
     display: flex;
 }
 
-nav li a{
+nav li a {
     margin: 5px 10px;
     color: var(--color-negro);
     text-decoration: none;
-    font-weight: bold;    
-    
+    font-weight: bold;
 }
-nav li{
+
+nav li {
     list-style: none;
 }
 
-nav li a:hover{
+nav li a:hover {
     color: white;
 }
 
 
 /* ----------------------------- AQUÍ COMIENZA EL MAIN -----------------------------*/
 
-.message-main{
+.message-main {
     padding: 15%;
     padding-top: 6%;
     text-align: center;
 }
 
-.products-catalogue{
+.products-catalogue {
     height: 50px;
     background-image: url("../images/curve.png");
     background-position: center top;
@@ -67,7 +69,7 @@ nav li a:hover{
     padding: 150px 30%;
 }
 
-.product-contain{
+.product-contain {
     /* border: 1px solid grey; */
     padding: 10px;
     margin: 10px;
@@ -75,19 +77,19 @@ nav li a:hover{
     border-radius: 5px;
 }
 
-.products-catalogue .product-contain{
+.products-catalogue .product-contain {
     background-color: white;
     padding: 15px;
     box-shadow: var(--sombra-box);
 }
 
-.product{
+.product {
     /* background-color: greenyellow; */
     padding: 10px;
     margin-top: -300px;
 }
 
-.main-button{
+.main-button {
     background-color: var(--color-verde);
     border-radius: 5px;
     padding: 10px 15px;
@@ -99,12 +101,14 @@ nav li a:hover{
     cursor: pointer;
 }
 
-.main-button:hover{
+.main-button:hover {
     background-color: #5e9e22;
 }
+
+
 /* ----------------------------- AQUÍ COMIENZA ZONA CARACTERISTICAS -----------------------------*/
 
-.characteristics{
+.characteristics {
     /* height: 200px; */
     /* border: red 1px solid; */
     display: flex;
@@ -112,50 +116,88 @@ nav li a:hover{
     /* padding: 10%; */
 }
 
-.characteristic{
+.characteristic {
     /* border: blue 1px solid; */
     margin: 100px;
     height: 300px;
     width: 180px;
 }
 
-.characteristic-contain{
+.characteristic-contain {
     text-align: center;
 }
 
-.characteristic-contain img{
+.characteristic-contain img {
     width: 150px;
     height: 150px;
 }
 
+
 /* ----------------------------- AQUÍ COMIENZA ZONA MENCIONES -----------------------------*/
 
-.mentions-title{
-   text-align: center;
-   border-top: 2px #e9e9e9 solid;
+.mentions-title {
+    text-align: center;
+    border-top: 2px #e9e9e9 solid;
 }
-.mentions{
+
+.mentions {
     /* border: blueviolet 1px solid; */
     display: flex;
     justify-content: center;
 }
 
-.mention{
+.mention {
     margin: 40px;
     box-shadow: -2px 2px 4px #ababab;
 }
 
-.mention-p{
+.mention-p {
     padding: 5px 10px;
 }
 
-.mention-contain img{
+.mention-contain img {
     width: 100%;
 }
 
+
+/* ----------------------------- AQUÍ COMIENZA ZONA COMPRA -----------------------------*/
+
+.modulo_pago {
+    background-color: white;
+    box-shadow: var(--sombra-box);
+    padding: 20px;
+}
+
+.modulo_pago_image {
+    max-width: 150px;
+    margin: auto;
+}
+
+.data {
+    height: 35px;
+    font-size: 25px;
+    width: 100%;
+    margin: 5px 0;
+    margin-bottom: 10px;
+    padding: 0 5px;
+    border: 1px gray solid;
+    border-radius: 3px;
+    box-sizing: border-box;
+    /*Hace que el input respete el espacio tanto del padding como del elemento que lo contiene*/
+}
+
+.modulo_pago .main-button {
+    margin-top: 16px;
+}
+
+#container-pago {
+    padding: 125px;
+}
+
+
 /* ----------------------------- AQUÍ COMIENZA FOOTER -----------------------------*/
 
-footer{
+footer {
     background-color: #313337;
     display: flex;
     justify-content: space-between;
@@ -163,13 +205,11 @@ footer{
     padding: 20px;
 }
 
-footer a{
+footer a {
     color: white;
     text-decoration: none;
 }
 
-footer a:hover{
+footer a:hover {
     text-decoration: underline;
 }
-
-
